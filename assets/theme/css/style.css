@@ -996,3 +996,8 @@ blockquote {
   transform: scale(1.1);
 }
 
+@media (max-width: 915px) {
+  .text-mobile{
+    font-size: 18px;
+  }
+}
