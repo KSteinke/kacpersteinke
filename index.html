@@ -492,7 +492,9 @@
   <!-- Inicjalizacja AOS -->
 <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
 <script>
-  AOS.init();
+  AOS.init({
+    offset: window.innerWidth < 768 ? 35 : 65
+  });
 </script>
 
 <input name="cookieData" type="hidden" data-cookie-cookiesAlertType='false' data-cookie-customDialogSelector='null' data-cookie-colorText='#424a4d' data-cookie-colorBg='rgb(255, 255, 255)' data-cookie-opacityOverlay='0' data-cookie-bgOpacity='100' data-cookie-textButton='Akceptuj' data-cookie-rejectText='REJECT' data-cookie-colorButton='#dc143c' data-cookie-rejectColor='#ffffff' data-cookie-colorLink='#424a4d' data-cookie-underlineLink='true' data-cookie-text="Używamy plików cookie, aby zapewnić najlepszą obsługę. Przeczytaj naszą <a href='privacy.html'>politykę cookies</a>.">
